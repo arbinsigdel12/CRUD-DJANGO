@@ -1,0 +1,22 @@
+h1{
+    color: aqua;
+    justify-content: center;
+}
+
+img{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.title{
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+body{
+    background-color: darkgreen;
+}

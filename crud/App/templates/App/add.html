@@ -1,0 +1,16 @@
+{% extends "App/home.html" %}
+{% block navbar %}{% endblock  %}
+{% block title %}Add{% endblock title %}
+
+{% block main_content %}
+<div class="container">
+        <div class="col-md-4">
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input class="btn btn-primary btn-sm m-1" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}
